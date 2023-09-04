@@ -1,7 +1,5 @@
 #!/bin/bash
-
-# Change into the Directory
-cd myapp
+set -e
 
 # Make the Migrations
 python manage.py makemigrations
